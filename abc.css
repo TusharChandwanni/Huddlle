@@ -1,0 +1,103 @@
+* {
+  background-color: white;
+  color :#003333;
+  line-height: 1.75;
+  margin : 0;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+img{
+  display: block;
+}
+.logo
+{
+display:flex;
+justify-content: space-between;
+width:auto;
+height:auto;
+align-items: center;
+}
+
+#firstbutton
+{
+  background-color:white ;
+  color:hsl(322, 100%, 69%);
+  padding :5px 23px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: hsl(322, 100%, 69%);
+  border-radius: 90px;
+   box-shadow: 0px -3px 12px -1px hsla(195, 100%, 21%, 0.1);
+   cursor: pointer;
+   font-size: 14px;
+}
+.logo:hover #firstbutton
+{
+  background-color: hsl(322, 100%, 69%,0.1);
+}
+.upper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper h2{
+  font-size: 40px;
+  margin-bottom: 0.2vh;
+
+
+}
+.upper p{
+  color: hsl(0, 0%, 45%);
+  max-width: 30em;
+  text-align: center;
+  font-size: 16.0px;
+  text-shadow:  1px 0px 2.5px hsl(0, 0%, 77%);
+  margin-bottom: 3.7vh;
+}
+
+#secondbutton{
+  background-color:hsl(326, 87%, 56%) ;
+  color:hsl(322, 100%, 69%);
+  padding: 0.8rem 5.8rem;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: hsl(322, 100%, 69%);
+  border-radius: 95px;
+   box-shadow: 0px 3px 12px 3px hsla(195, 100%, 21%, 0.3);
+   cursor: pointer;
+   font-weight: 580;
+   font-size: 16px;
+   color: white;
+   margin-bottom: 14.5vh;
+}
+
+.upperr:hover #secondbutton{
+
+  box-shadow: 0px 4px 13px 4px hsla(195, 100%, 21%, 0.4);
+  background-color: hsl(322, 94%, 59%) ;
+
+}
+
+.first{
+  display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 3rem;
+     padding: 1.5rem;
+
+
+}
+.first h1{
+  font-size: 5rem;
+}
+.first h4{
+  text-align: center;
+  font-size: 1.25rem;
+  color: grey;
+
+}
